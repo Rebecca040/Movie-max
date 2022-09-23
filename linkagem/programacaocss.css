@@ -1,0 +1,50 @@
+body{
+background-color:#000000;
+}
+label{
+	color:#FFFFF0;
+}
+
+.form-group label{
+	font-family:sans-serif;
+	color:#FFFFF0;
+	border:3px solid #FFFFF0;
+	border-radius: 20px;
+	font-size: 25px;
+	margin:2rem;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	width: 500px;
+	margin-bottom:2px;
+	box-shadow:5px 5px 5px #8B0000;
+}
+.form-group input{
+	margin:1rem;
+	border:none;
+}
+.form-group legend{
+	color:#FFFFF0;
+	
+	background-color:#8B0000;
+	color:#FFFAFA;
+	height:75px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	font-family:verdana,sans-serif;
+	
+}
+
+.form-group{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 80px;
+}
+.bnt{
+	margin:2rem;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}

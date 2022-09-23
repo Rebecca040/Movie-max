@@ -1,0 +1,22 @@
+@font-face{
+src:url("../fontes/OpenSans-VariableFont_wdth,wght.ttf");
+	font-family:'fonte2';
+}
+body{
+	background-color:#000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contatos img{
+		height: 30%;
+}
+
+body h2{
+	color:#FFFFF0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family:"fonte2";
+	font-size:2.5rem;
+}

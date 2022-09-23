@@ -1,0 +1,166 @@
+@font-face{
+	src:url("fontes/RubikDirt-Regular.ttf");
+	font-family:'fonte1';
+	src:url("fontes/OpenSans-VariableFont_wdth,wght.ttf");
+	font-family:'fonte2';
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.site{
+	background-color:#000000;
+	display:grid;
+}
+ 
+header{
+	background-color:#000000;
+	color:#FFFAFA;
+	height:120px;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	font-family:"fonte1";
+	
+}
+
+header h1{
+	 font-size:4rem;
+	 font-family: 'Lobster', cursive;
+	 height:100%;
+	 display:flex;
+	 align-items:center;
+	
+}
+header img{
+	width:85px;
+}
+nav{
+	height:50px;
+	background-color:#8B0000;	
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	font-family:"fonte2";
+	font-size:1rem;
+	text-align:center;
+	
+	
+}
+ 
+nav ul{
+	display:flex;
+	list-style:none; 
+	width: 700px;
+	height:50px;
+	justify-content: space-around; 
+	align-items:center; 
+}
+nav ul a{
+	color:#FFFAFA;
+}
+nav div{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+.loupe{
+	height:20px;
+	width:20px;
+}
+.search-box{
+	max-width:1000px;
+	min-width:none;
+	background-color:#FFFFF0;
+	height:22px;
+	padding:0px 8 px 0 px 18px;
+	left:30%;
+	
+}
+
+
+.banner iframe{
+	background-color:#D3D3D3;
+	display:flex;
+	justify-content:space-around;
+	width:100%;
+	height:500px;
+}
+
+
+.filmes{
+	 
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	
+}
+.filmes a{
+	color:#FFFAFA;
+}
+.filmes h2{
+	color:#FFFAFA;
+}
+.filmes img:hover{
+	box-shadow: 10px 60px 40px #8B0000;
+	transition:10px;
+}
+
+
+.filme{
+	width:20%;
+	height:550px;	
+	margin:5px;
+	border:3px solid #000000;
+	border-radius: 40px;
+	padding:1rem;
+	margin:2rem;
+	
+}
+.filme img{
+	width:100%;
+	height:90%;
+}
+
+
+
+
+.filme h2{
+	 font-family:"fonte1";
+	 font-size:0.8rem;
+	 text-align: center;
+	 text-decoration: underline;
+	text-decoration-color: #000000;
+	text-decoration-style:solid;
+	text-transform: uppercase;
+}
+
+.filme a{
+	font-family: arial;
+	font-size:0.9rem;
+	text-align:center;
+	display:block;
+}
+
+	
+footer{
+	background-color:#8B0000;
+	color:#FFFAFA;
+	height:75px;
+	 display:flex;
+	justify-content:space-around;
+	align-items:center;
+	 font-family:verdana,sans-serif;
+	
+	
+}
+footer a{
+	color:#FFFAFA;
+}
+
+
+
+
+
+
